@@ -15,7 +15,7 @@ public class Helper {
 //        return(int)(Math.random() * 1000);
 //    }
     
-    public static int getRandomIntiger(int range){
+    public static int getRandomInteger(int range){
         return(int)(Math.random() * range);
     }
     

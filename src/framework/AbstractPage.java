@@ -12,7 +12,6 @@ public class AbstractPage {
     
     protected WebDriver getDriver(){
         if(driver == null){
-            driver = new ChromeDriver();
             System.setProperty("webdriver.chrome.driver", chromeDriverPath);
             driver = new ChromeDriver();
             driver.manage().window().maximize();

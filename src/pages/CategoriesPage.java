@@ -67,7 +67,7 @@ public class CategoriesPage extends Page {
     private WebElement chooseRandomRow() {
         List<WebElement> rows = getRowsFromTable();
 
-        WebElement randomRow = rows.get(Helper.getRandomIntiger(rows.size()));
+        WebElement randomRow = rows.get(Helper.getRandomInteger(rows.size()));
 
         return randomRow;
     }

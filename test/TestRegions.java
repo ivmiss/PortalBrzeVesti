@@ -39,9 +39,24 @@ public class TestRegions {
     public void tearDown() {
     }
 
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
+    
+    @Test
+    public void testAddNewRegion() {
+        regionsPage.addNewRegion();
+    }
+    
+//    @Test
+//    public void testEditFirstRegion(){
+//        regionsPage.editFirstRegion();
+//    }
+    
+     @Test
+    public void testEditRandomRegion(){
+        regionsPage.editRandomRegion();
+    }
+
+//    @Test
+//    public void testEditLastRegion(){
+//        regionsPage.editLastRegion();
+//    }
 }
